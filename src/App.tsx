@@ -1,9 +1,14 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { TopBar } from './Components/TopBar';
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
-    <TopBar />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

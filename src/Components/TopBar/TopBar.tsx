@@ -24,7 +24,7 @@ const TopBar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ bgcolor: "#fff", color: '#000' }}>
+    <AppBar position="sticky" sx={{ bgcolor: "#fff", color: '#000' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
